@@ -63,7 +63,7 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/sindhu.madicherla/MLFlow.mlflow \
+MLFLOW_TRACKING_URI=https://dagshub.com/sindhu.madicherla/Heart_Disease_Predictor.mlflow \
 MLFLOW_TRACKING_USERNAME=sindhu.madicherla \
 MLFLOW_TRACKING_PASSWORD=39c1acd6a406fa680fb07249a1285a5ffcf53cfe \
 conda env config vars list	
