@@ -21,7 +21,7 @@
 Clone the repository
 
 ```bash
-https://github.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow
+https://github.com/Sindhu-Madicherla/Heart_Disease_Predictor
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
@@ -63,9 +63,9 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/sindhu.madicherla/Heart_Disease_Predictor.mlflow \
+MLFLOW_TRACKING_URI=*** \
 MLFLOW_TRACKING_USERNAME=sindhu.madicherla \
-MLFLOW_TRACKING_PASSWORD=39c1acd6a406fa680fb07249a1285a5ffcf53cfe \
+MLFLOW_TRACKING_PASSWORD=*** \
 conda env config vars list	
 conda env config vars set MLFLOW_TRACKING_USERNAME=sindhu.madicherla
 
@@ -75,11 +75,11 @@ Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/sindhu.madicherla/Heart_Disease_Predictor.mlflow
+export MLFLOW_TRACKING_URI=***
 
-export MLFLOW_TRACKING_USERNAME=sindhu.madicherla 
+export MLFLOW_TRACKING_USERNAME=*** 
 
-export MLFLOW_TRACKING_PASSWORD=39c1acd6a406fa680fb07249a1285a5ffcf53cfe
+export MLFLOW_TRACKING_PASSWORD=***
 
 ```
 # AWS-CICD-Deployment-with-Github-Actions
@@ -115,7 +115,7 @@ export MLFLOW_TRACKING_PASSWORD=39c1acd6a406fa680fb07249a1285a5ffcf53cfe
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 197137720867.dkr.ecr.ap-southeast-2.amazonaws.com/mlproject_310
+    - Save the URI: ***
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -151,16 +151,7 @@ export MLFLOW_TRACKING_PASSWORD=39c1acd6a406fa680fb07249a1285a5ffcf53cfe
 
     AWS_REGION = us-east-1
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = 
 
     ECR_REPOSITORY_NAME = simple-app
 
-
-
-
-## About MLflow 
-MLflow
-
- - Its Production Grade
- - Trace all of your expriements
- - Logging & tagging your model
