@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import os 
 import numpy as np
 import pandas as pd
-from mlProject.pipeline.prediction import PredictionPipeline
+from HeartDisease.pipeline.prediction import PredictionPipeline
 
 app = Flask(__name__) # initializing a flask app
 
@@ -20,21 +20,29 @@ def index():
     if request.method == 'POST':
         try:
             #  reading the inputs given by the user
-            fixed_acidity =float(request.form['fixed_acidity'])
-            volatile_acidity =float(request.form['volatile_acidity'])
-            citric_acid =float(request.form['citric_acid'])
-            residual_sugar =float(request.form['residual_sugar'])
-            chlorides =float(request.form['chlorides'])
-            free_sulfur_dioxide =float(request.form['free_sulfur_dioxide'])
-            total_sulfur_dioxide =float(request.form['total_sulfur_dioxide'])
-            density =float(request.form['density'])
-            pH =float(request.form['pH'])
-            sulphates =float(request.form['sulphates'])
-            alcohol =float(request.form['alcohol'])
+            BMI =float(request.form['BMI'])
+            Smoking =str(request.form['Smoking'])
+            AlcoholDrinking =str(request.form['AlcoholDrinking'])
+            Stroke =str(request.form['Stroke'])
+            PhysicalHealth =float(request.form['PhysicalHealth'])
+            MentalHealth =float(request.form['MentalHealth'])
+            DiffWalking =str(request.form['DiffWalking'])
+            Sex =str(request.form['Sex'])
+            AgeCategory =str(request.form['AgeCategory'])
+            Race =str(request.form['Race'])
+            Diabetic =str(request.form['Diabetic'])
+            PhysicalActivity =str(request.form['PhysicalActivity'])
+            GenHealth =str(request.form['GenHealth'])
+            SleepTime =float(request.form['SleepTime'])
+            Asthma =str(request.form['Asthma'])
+            KidneyDisease =str(request.form['KidneyDisease'])
+            SkinCancer =str(request.form['SkinCancer'])
        
          
-            data = [fixed_acidity,volatile_acidity,citric_acid,residual_sugar,chlorides,free_sulfur_dioxide,total_sulfur_dioxide,density,pH,sulphates,alcohol]
-            data = np.array(data).reshape(1, 11)
+            data = [BMI,Smoking,AlcoholDrinking,Stroke,PhysicalHealth,MentalHealth,DiffWalking,Sex,AgeCategory,Race,Diabetic,PhysicalActivity,GenHealth,SleepTime,Asthma,KidneyDisease,SkinCancer]
+            print("Data is : ")
+            print(data)
+            data = np.array(data).reshape(1, 17)
             
             obj = PredictionPipeline()
             predict = obj.predict(data)
@@ -43,7 +51,7 @@ def index():
 
         except Exception as e:
             print('The Exception message is: ',e)
-            return 'something is wrong'
+            return 'Something is wrong'
 
     else:
         return render_template('index.html')

@@ -19,7 +19,7 @@ data_validation:
 data_transformation:
   root_dir: artifacts/data_transformation
   data_path: artifacts/data_ingestion/heart_2020_cleaned.csv
-
+  encoder_name: encoder.obj
 
 
 model_trainer:

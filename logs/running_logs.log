@@ -2540,3 +2540,592 @@ x==========x]
 [2023-12-27 22:45:02,850: INFO: main: >>>>>> Stage Model Evaluation completed <<<<<<
 
 x==========x]
+[2023-12-28 15:02:05,104: INFO: main: >>>>>> Stage Data Ingestion started <<<<<<]
+[2023-12-28 15:02:05,112: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-28 15:02:05,120: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-28 15:02:05,128: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-28 15:02:05,128: INFO: common: created directory at: artifacts]
+[2023-12-28 15:02:05,128: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-28 15:02:05,128: INFO: data_ingestion: File already exists of size: ~ 3217 KB]
+[2023-12-28 15:02:05,232: INFO: main: >>>>>> Stage Data Ingestion completed <<<<<<
+
+x==========x]
+[2023-12-28 15:02:05,241: INFO: main: >>>>>> Stage Data Validation started <<<<<<]
+[2023-12-28 15:02:05,241: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-28 15:02:05,241: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-28 15:02:05,241: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-28 15:02:05,241: INFO: common: created directory at: artifacts]
+[2023-12-28 15:02:05,241: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-28 15:02:05,701: INFO: main: >>>>>> Stage Data Validation completed <<<<<<
+
+x==========x]
+[2023-12-28 15:02:05,701: INFO: main: >>>>>> Stage Data Transformation started <<<<<<]
+[2023-12-28 15:02:05,709: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-28 15:02:05,709: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-28 15:02:05,709: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-28 15:02:05,709: INFO: common: created directory at: artifacts]
+[2023-12-28 15:02:05,709: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-28 15:02:11,455: INFO: data_transformation: Splited data into training and test sets]
+[2023-12-28 15:02:11,455: INFO: data_transformation: (223856, 18)]
+[2023-12-28 15:02:11,455: INFO: data_transformation: (95939, 18)]
+[2023-12-28 15:02:11,469: INFO: main: >>>>>> Stage Data Transformation completed <<<<<<
+
+x==========x]
+[2023-12-28 15:02:11,469: INFO: main: >>>>>> Stage Model Training started <<<<<<]
+[2023-12-28 15:02:11,469: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-28 15:02:11,469: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-28 15:02:11,469: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-28 15:02:11,469: INFO: common: created directory at: artifacts]
+[2023-12-28 15:02:11,469: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-28 15:03:11,736: INFO: main: >>>>>> Stage Model Training completed <<<<<<
+
+x==========x]
+[2023-12-28 15:03:11,736: INFO: main: >>>>>> Stage Model Evaluation started <<<<<<]
+[2023-12-28 15:03:11,743: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-28 15:03:11,743: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-28 15:03:11,743: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-28 15:03:11,743: INFO: common: created directory at: artifacts]
+[2023-12-28 15:03:11,758: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-12-28 15:03:16,722: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2023-12-28 15:03:29,417: INFO: main: >>>>>> Stage Model Evaluation completed <<<<<<
+
+x==========x]
+[2023-12-28 15:46:31,024: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2023-12-28 15:46:31,024: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-28 15:46:47,612: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:46:47] "GET / HTTP/1.1" 200 -]
+[2023-12-28 15:46:47,642: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:46:47] "GET /static/css2/style.css HTTP/1.1" 200 -]
+[2023-12-28 15:46:47,652: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:46:47] "GET /static/css/styles.css HTTP/1.1" 200 -]
+[2023-12-28 15:46:47,656: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:46:47] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
+[2023-12-28 15:46:47,663: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:46:47] "GET /static/js/scripts.js HTTP/1.1" 200 -]
+[2023-12-28 15:46:49,737: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:46:49] "GET /static/assets/img/form-v9.jpg HTTP/1.1" 200 -]
+[2023-12-28 15:46:49,752: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:46:49] "GET /static/assets/img/wine.jpg HTTP/1.1" 200 -]
+[2023-12-28 15:46:49,764: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:46:49] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2023-12-28 15:46:49,827: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:46:49] "GET /static/assets/favicon.ico HTTP/1.1" 200 -]
+[2023-12-28 15:48:37,205: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:48:37] "POST /predict HTTP/1.1" 200 -]
+[2023-12-28 15:48:37,224: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:48:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2023-12-28 15:53:29,677: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2023-12-28 15:53:29,677: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-28 15:53:36,819: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:53:36] "POST /predict HTTP/1.1" 200 -]
+[2023-12-28 15:53:44,845: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:53:44] "GET / HTTP/1.1" 200 -]
+[2023-12-28 15:53:44,882: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:53:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2023-12-28 15:53:44,887: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:53:44] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2023-12-28 15:53:44,892: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:53:44] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2023-12-28 15:53:44,895: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:53:44] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2023-12-28 15:53:44,907: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:53:44] "[36mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 304 -]
+[2023-12-28 15:53:44,915: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:53:44] "[36mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 304 -]
+[2023-12-28 15:53:44,923: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:53:44] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2023-12-28 15:54:29,649: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:54:29] "POST /predict HTTP/1.1" 200 -]
+[2023-12-28 15:58:55,803: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2023-12-28 15:58:55,803: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-28 15:59:09,427: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:59:09] "GET / HTTP/1.1" 200 -]
+[2023-12-28 15:59:09,457: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:59:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2023-12-28 15:59:09,457: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:59:09] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2023-12-28 15:59:09,457: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:59:09] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2023-12-28 15:59:09,467: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:59:09] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2023-12-28 15:59:12,414: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:59:12] "GET / HTTP/1.1" 200 -]
+[2023-12-28 15:59:12,436: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:59:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2023-12-28 15:59:12,436: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:59:12] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2023-12-28 15:59:12,436: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:59:12] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2023-12-28 15:59:12,443: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:59:12] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2023-12-28 15:59:13,072: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:59:13] "[36mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 304 -]
+[2023-12-28 15:59:13,074: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:59:13] "[36mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 304 -]
+[2023-12-28 15:59:13,088: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:59:13] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2023-12-28 15:59:13,201: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:59:13] "GET /static/assets/favicon.ico HTTP/1.1" 200 -]
+[2023-12-28 15:59:55,253: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 15:59:55] "POST /predict HTTP/1.1" 200 -]
+[2023-12-28 16:00:46,877: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2023-12-28 16:00:46,877: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-28 16:00:54,254: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 16:00:54] "GET / HTTP/1.1" 200 -]
+[2023-12-28 16:00:54,291: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 16:00:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2023-12-28 16:00:54,291: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 16:00:54] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2023-12-28 16:00:54,294: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 16:00:54] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2023-12-28 16:00:54,295: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 16:00:54] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2023-12-28 16:00:54,328: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 16:00:54] "[36mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 304 -]
+[2023-12-28 16:00:54,328: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 16:00:54] "[36mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 304 -]
+[2023-12-28 16:00:54,338: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 16:00:54] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2023-12-28 16:01:33,241: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 16:01:33] "POST /predict HTTP/1.1" 200 -]
+[2023-12-28 16:01:33,260: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 16:01:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2023-12-28 16:01:33,261: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 16:01:33] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2023-12-28 16:01:33,277: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 16:01:33] "[36mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 304 -]
+[2023-12-28 16:02:59,476: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 16:02:59] "POST /predict HTTP/1.1" 200 -]
+[2023-12-28 16:02:59,503: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 16:02:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2023-12-28 16:02:59,505: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 16:02:59] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2023-12-28 16:02:59,516: INFO: _internal: 192.168.1.8 - - [28/Dec/2023 16:02:59] "[36mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 304 -]
+[2023-12-29 15:01:06,437: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2023-12-29 15:01:06,452: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-29 15:01:51,143: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:01:51] "GET / HTTP/1.1" 200 -]
+[2023-12-29 15:01:51,199: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:01:51] "GET /static/css/styles.css HTTP/1.1" 200 -]
+[2023-12-29 15:01:51,205: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:01:51] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
+[2023-12-29 15:01:51,205: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:01:51] "GET /static/js/scripts.js HTTP/1.1" 200 -]
+[2023-12-29 15:01:51,209: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:01:51] "GET /static/css2/style.css HTTP/1.1" 200 -]
+[2023-12-29 15:01:53,282: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:01:53] "GET /static/assets/img/form-v9.jpg HTTP/1.1" 200 -]
+[2023-12-29 15:01:53,282: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:01:53] "GET /static/assets/img/heart.jpg HTTP/1.1" 200 -]
+[2023-12-29 15:01:53,332: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:01:53] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2023-12-29 15:01:53,425: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:01:53] "GET /static/assets/favicon.ico HTTP/1.1" 200 -]
+[2023-12-29 15:07:38,960: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2023-12-29 15:07:38,960: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-29 15:07:44,806: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:07:44] "GET / HTTP/1.1" 200 -]
+[2023-12-29 15:07:44,837: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:07:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:07:44,837: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:07:44] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:07:44,853: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:07:44] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:07:44,853: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:07:44] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2023-12-29 15:07:44,869: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:07:44] "[36mGET /static/assets/img/heart.jpg HTTP/1.1[0m" 304 -]
+[2023-12-29 15:07:44,900: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:07:44] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2023-12-29 15:07:44,915: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:07:44] "[36mGET /static/assets/favicon.ico HTTP/1.1[0m" 304 -]
+[2023-12-29 15:09:16,908: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2023-12-29 15:09:16,908: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-29 15:09:19,148: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:09:19] "GET / HTTP/1.1" 200 -]
+[2023-12-29 15:09:19,183: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:09:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:09:19,183: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:09:19] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:09:19,188: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:09:19] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:09:19,190: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:09:19] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2023-12-29 15:09:19,225: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:09:19] "[36mGET /static/assets/img/heart.jpg HTTP/1.1[0m" 304 -]
+[2023-12-29 15:09:19,236: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:09:19] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2023-12-29 15:09:19,250: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:09:19] "GET /static/assets/img/form.jpg HTTP/1.1" 200 -]
+[2023-12-29 15:09:19,260: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:09:19] "[36mGET /static/assets/favicon.ico HTTP/1.1[0m" 304 -]
+[2023-12-29 15:10:32,447: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2023-12-29 15:10:32,447: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-29 15:10:37,527: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:10:37] "GET / HTTP/1.1" 200 -]
+[2023-12-29 15:10:37,597: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:10:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:10:37,599: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:10:37] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:10:37,612: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:10:37] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:10:37,615: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:10:37] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2023-12-29 15:10:37,629: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:10:37] "[36mGET /static/assets/img/heart.jpg HTTP/1.1[0m" 304 -]
+[2023-12-29 15:10:37,647: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:10:37] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2023-12-29 15:10:37,667: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:10:37] "GET /static/assets/img/form.jpg HTTP/1.1" 200 -]
+[2023-12-29 15:10:37,686: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:10:37] "[36mGET /static/assets/favicon.ico HTTP/1.1[0m" 304 -]
+[2023-12-29 15:11:27,554: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:11:27] "GET / HTTP/1.1" 200 -]
+[2023-12-29 15:11:27,582: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:11:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:11:27,582: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:11:27] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:11:27,582: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:11:27] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:11:27,582: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:11:27] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2023-12-29 15:11:27,598: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:11:27] "[36mGET /static/assets/img/heart.jpg HTTP/1.1[0m" 304 -]
+[2023-12-29 15:11:27,618: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:11:27] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2023-12-29 15:11:27,625: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:11:27] "GET /static/assets/img/form.jpg HTTP/1.1" 200 -]
+[2023-12-29 15:11:27,640: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:11:27] "[36mGET /static/assets/favicon.ico HTTP/1.1[0m" 304 -]
+[2023-12-29 15:12:37,725: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:12:37] "GET / HTTP/1.1" 200 -]
+[2023-12-29 15:12:37,749: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:12:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:12:37,765: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:12:37] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:12:37,765: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:12:37] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2023-12-29 15:12:37,773: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:12:37] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:12:37,785: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:12:37] "[36mGET /static/assets/img/heart.jpg HTTP/1.1[0m" 304 -]
+[2023-12-29 15:12:37,806: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:12:37] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2023-12-29 15:12:37,816: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:12:37] "GET /static/assets/img/form.jpg HTTP/1.1" 200 -]
+[2023-12-29 15:12:37,825: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:12:37] "[36mGET /static/assets/favicon.ico HTTP/1.1[0m" 304 -]
+[2023-12-29 15:13:18,810: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:13:18] "GET / HTTP/1.1" 200 -]
+[2023-12-29 15:13:18,829: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:13:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:13:18,836: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:13:18] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:13:18,837: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:13:18] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:13:18,841: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:13:18] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2023-12-29 15:13:18,856: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:13:18] "[36mGET /static/assets/img/form.jpg HTTP/1.1[0m" 304 -]
+[2023-12-29 15:13:18,861: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:13:18] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2023-12-29 15:13:18,872: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:13:18] "GET /static/assets/img/heart.jpg HTTP/1.1" 200 -]
+[2023-12-29 15:13:18,913: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:13:18] "[36mGET /static/assets/favicon.ico HTTP/1.1[0m" 304 -]
+[2023-12-29 15:15:30,217: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2023-12-29 15:15:30,217: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-29 15:15:35,491: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:15:35] "GET / HTTP/1.1" 200 -]
+[2023-12-29 15:15:35,506: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:15:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:15:35,522: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:15:35] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:15:35,522: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:15:35] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:15:35,522: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:15:35] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2023-12-29 15:15:35,554: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:15:35] "[36mGET /static/assets/img/heart.jpg HTTP/1.1[0m" 304 -]
+[2023-12-29 15:15:35,569: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:15:35] "[36mGET /static/assets/img/form.jpg HTTP/1.1[0m" 304 -]
+[2023-12-29 15:15:35,593: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:15:35] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2023-12-29 15:15:35,609: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:15:35] "[36mGET /static/assets/favicon.ico HTTP/1.1[0m" 304 -]
+[2023-12-29 15:18:16,886: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:18:16] "POST /predict HTTP/1.1" 200 -]
+[2023-12-29 15:18:16,917: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:18:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:18:16,922: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:18:16] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2023-12-29 15:18:16,968: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:18:16] "GET /static/assets/img/wine.jpg HTTP/1.1" 200 -]
+[2023-12-29 15:19:39,590: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:19:39] "GET /predict HTTP/1.1" 200 -]
+[2023-12-29 15:19:39,610: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:19:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:19:39,610: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:19:39] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:19:39,610: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:19:39] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:19:39,626: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:19:39] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2023-12-29 15:19:39,657: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:19:39] "[36mGET /static/assets/img/heart.jpg HTTP/1.1[0m" 304 -]
+[2023-12-29 15:19:39,657: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:19:39] "[36mGET /static/assets/img/form.jpg HTTP/1.1[0m" 304 -]
+[2023-12-29 15:19:39,673: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:19:39] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2023-12-29 15:19:53,959: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2023-12-29 15:19:53,959: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-29 15:19:54,095: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:19:54] "GET /predict HTTP/1.1" 200 -]
+[2023-12-29 15:19:54,121: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:19:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:19:54,126: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:19:54] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:19:54,126: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:19:54] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:19:54,126: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:19:54] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2023-12-29 15:19:54,158: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:19:54] "[36mGET /static/assets/img/heart.jpg HTTP/1.1[0m" 304 -]
+[2023-12-29 15:19:54,158: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:19:54] "[36mGET /static/assets/img/form.jpg HTTP/1.1[0m" 304 -]
+[2023-12-29 15:19:54,173: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:19:54] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2023-12-29 15:19:54,205: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:19:54] "[36mGET /static/assets/favicon.ico HTTP/1.1[0m" 304 -]
+[2023-12-29 15:20:33,224: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:20:33] "POST /predict HTTP/1.1" 200 -]
+[2023-12-29 15:20:33,273: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:20:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2023-12-29 15:20:33,273: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:20:33] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2023-12-29 15:20:33,286: INFO: _internal: 127.0.0.1 - - [29/Dec/2023 15:20:33] "[36mGET /static/assets/img/heart.jpg HTTP/1.1[0m" 304 -]
+[2023-12-29 15:50:34,067: INFO: main: >>>>>> Stage Data Ingestion started <<<<<<]
+[2023-12-29 15:50:34,067: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:50:34,083: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:50:34,083: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:50:34,083: INFO: common: created directory at: artifacts]
+[2023-12-29 15:50:34,083: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-29 15:50:34,083: INFO: data_ingestion: File already exists of size: ~ 3217 KB]
+[2023-12-29 15:50:34,145: INFO: main: >>>>>> Stage Data Ingestion completed <<<<<<
+
+x==========x]
+[2023-12-29 15:50:34,145: INFO: main: >>>>>> Stage Data Validation started <<<<<<]
+[2023-12-29 15:50:34,161: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:50:34,161: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:50:34,161: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:50:34,177: INFO: common: created directory at: artifacts]
+[2023-12-29 15:50:34,177: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-29 15:50:34,505: INFO: main: >>>>>> Stage Data Validation completed <<<<<<
+
+x==========x]
+[2023-12-29 15:50:34,505: INFO: main: >>>>>> Stage Data Transformation started <<<<<<]
+[2023-12-29 15:50:34,505: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:50:34,505: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:50:34,505: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:50:34,505: INFO: common: created directory at: artifacts]
+[2023-12-29 15:50:34,505: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-29 15:50:39,965: INFO: data_transformation: Splited data into training and test sets]
+[2023-12-29 15:50:39,965: INFO: data_transformation: (223856, 18)]
+[2023-12-29 15:50:39,965: INFO: data_transformation: (95939, 18)]
+[2023-12-29 15:50:39,981: INFO: main: >>>>>> Stage Data Transformation completed <<<<<<
+
+x==========x]
+[2023-12-29 15:50:39,981: INFO: main: >>>>>> Stage Model Training started <<<<<<]
+[2023-12-29 15:50:39,981: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:50:39,981: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:50:39,981: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:50:39,981: INFO: common: created directory at: artifacts]
+[2023-12-29 15:50:39,981: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-29 15:51:02,472: INFO: main: >>>>>> Stage Model Training completed <<<<<<
+
+x==========x]
+[2023-12-29 15:51:02,472: INFO: main: >>>>>> Stage Model Evaluation started <<<<<<]
+[2023-12-29 15:51:02,472: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:51:02,472: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:51:02,472: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:51:02,488: INFO: common: created directory at: artifacts]
+[2023-12-29 15:51:02,488: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-12-29 15:51:04,804: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2023-12-29 15:51:15,121: INFO: main: >>>>>> Stage Model Evaluation completed <<<<<<
+
+x==========x]
+[2023-12-29 15:54:30,035: INFO: main: >>>>>> Stage Data Ingestion started <<<<<<]
+[2023-12-29 15:54:30,050: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:54:30,066: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:54:30,082: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:54:30,097: INFO: common: created directory at: artifacts]
+[2023-12-29 15:54:30,097: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-29 15:54:30,097: INFO: data_ingestion: File already exists of size: ~ 3217 KB]
+[2023-12-29 15:54:30,160: INFO: main: >>>>>> Stage Data Ingestion completed <<<<<<
+
+x==========x]
+[2023-12-29 15:54:30,160: INFO: main: >>>>>> Stage Data Validation started <<<<<<]
+[2023-12-29 15:54:30,160: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:54:30,160: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:54:30,160: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:54:30,160: INFO: common: created directory at: artifacts]
+[2023-12-29 15:54:30,160: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-29 15:54:30,480: INFO: main: >>>>>> Stage Data Validation completed <<<<<<
+
+x==========x]
+[2023-12-29 15:54:30,480: INFO: main: >>>>>> Stage Data Transformation started <<<<<<]
+[2023-12-29 15:54:30,480: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:54:30,480: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:54:30,480: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:54:30,480: INFO: common: created directory at: artifacts]
+[2023-12-29 15:54:30,480: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-29 15:54:35,414: INFO: data_transformation: Splited data into training and test sets]
+[2023-12-29 15:54:35,414: INFO: data_transformation: (223856, 18)]
+[2023-12-29 15:54:35,429: INFO: data_transformation: (95939, 18)]
+[2023-12-29 15:54:35,445: INFO: main: >>>>>> Stage Data Transformation completed <<<<<<
+
+x==========x]
+[2023-12-29 15:54:35,461: INFO: main: >>>>>> Stage Model Training started <<<<<<]
+[2023-12-29 15:54:35,461: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:54:35,461: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:54:35,461: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:54:35,461: INFO: common: created directory at: artifacts]
+[2023-12-29 15:54:35,461: ERROR: main: "'ConfigBox' object has no attribute 'elasticnet'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'elasticnet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    obj.main()
+  File "c:\users\sindhu madhicherla\onedrive\desktop\ml\projects\p5_mlflow_ec2_app_heartdisease\heart_disease_predictor\heart_disease_predictor\src\HeartDisease\pipeline\stage_04_model_trainer.py", line 19, in main
+    raise e
+  File "c:\users\sindhu madhicherla\onedrive\desktop\ml\projects\p5_mlflow_ec2_app_heartdisease\heart_disease_predictor\heart_disease_predictor\src\HeartDisease\pipeline\stage_04_model_trainer.py", line 14, in main
+    model_trainer_config = config.get_model_trainer_config()
+  File "c:\users\sindhu madhicherla\onedrive\desktop\ml\projects\p5_mlflow_ec2_app_heartdisease\heart_disease_predictor\heart_disease_predictor\src\HeartDisease\config\configuration.py", line 64, in get_model_trainer_config
+    params = self.params.ElasticNet
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'elasticnet'"
+[2023-12-29 15:55:57,947: INFO: main: >>>>>> Stage Data Ingestion started <<<<<<]
+[2023-12-29 15:55:57,963: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:55:57,978: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:55:57,978: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:55:57,978: INFO: common: created directory at: artifacts]
+[2023-12-29 15:55:57,978: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-29 15:55:57,994: INFO: data_ingestion: File already exists of size: ~ 3217 KB]
+[2023-12-29 15:55:58,056: INFO: main: >>>>>> Stage Data Ingestion completed <<<<<<
+
+x==========x]
+[2023-12-29 15:55:58,056: INFO: main: >>>>>> Stage Data Validation started <<<<<<]
+[2023-12-29 15:55:58,056: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:55:58,056: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:55:58,056: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:55:58,056: INFO: common: created directory at: artifacts]
+[2023-12-29 15:55:58,056: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-29 15:55:58,353: INFO: main: >>>>>> Stage Data Validation completed <<<<<<
+
+x==========x]
+[2023-12-29 15:55:58,369: INFO: main: >>>>>> Stage Data Transformation started <<<<<<]
+[2023-12-29 15:55:58,369: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:55:58,369: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:55:58,369: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:55:58,369: INFO: common: created directory at: artifacts]
+[2023-12-29 15:55:58,369: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-29 15:56:00,012: ERROR: main: [Errno 13] Permission denied: 'artifacts/data_transformation\\train.csv']
+Traceback (most recent call last):
+  File "main.py", line 33, in <module>
+    obj.main()
+  File "c:\users\sindhu madhicherla\onedrive\desktop\ml\projects\p5_mlflow_ec2_app_heartdisease\heart_disease_predictor\heart_disease_predictor\src\HeartDisease\pipeline\stage_03_data_transformation.py", line 19, in main
+    raise e
+  File "c:\users\sindhu madhicherla\onedrive\desktop\ml\projects\p5_mlflow_ec2_app_heartdisease\heart_disease_predictor\heart_disease_predictor\src\HeartDisease\pipeline\stage_03_data_transformation.py", line 17, in main
+    data_transformation.pre_process()
+  File "c:\users\sindhu madhicherla\onedrive\desktop\ml\projects\p5_mlflow_ec2_app_heartdisease\heart_disease_predictor\heart_disease_predictor\src\HeartDisease\components\data_transformation.py", line 39, in pre_process
+    train.to_csv(os.path.join(self.config.root_dir, "train.csv"),index = False)
+  File "C:\Users\SINDHU MADHICHERLA\anaconda3\envs\heartDisease\lib\site-packages\pandas\core\generic.py", line 3772, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "C:\Users\SINDHU MADHICHERLA\anaconda3\envs\heartDisease\lib\site-packages\pandas\io\formats\format.py", line 1186, in to_csv
+    csv_formatter.save()
+  File "C:\Users\SINDHU MADHICHERLA\anaconda3\envs\heartDisease\lib\site-packages\pandas\io\formats\csvs.py", line 240, in save
+    with get_handle(
+  File "C:\Users\SINDHU MADHICHERLA\anaconda3\envs\heartDisease\lib\site-packages\pandas\io\common.py", line 859, in get_handle
+    handle = open(
+PermissionError: [Errno 13] Permission denied: 'artifacts/data_transformation\\train.csv'
+[2023-12-29 15:56:24,742: INFO: main: >>>>>> Stage Data Ingestion started <<<<<<]
+[2023-12-29 15:56:24,742: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:56:24,742: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:56:24,742: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:56:24,742: INFO: common: created directory at: artifacts]
+[2023-12-29 15:56:24,758: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-29 15:56:24,758: INFO: data_ingestion: File already exists of size: ~ 3217 KB]
+[2023-12-29 15:56:24,804: INFO: main: >>>>>> Stage Data Ingestion completed <<<<<<
+
+x==========x]
+[2023-12-29 15:56:24,804: INFO: main: >>>>>> Stage Data Validation started <<<<<<]
+[2023-12-29 15:56:24,804: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:56:24,804: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:56:24,804: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:56:24,804: INFO: common: created directory at: artifacts]
+[2023-12-29 15:56:24,804: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-29 15:56:25,118: INFO: main: >>>>>> Stage Data Validation completed <<<<<<
+
+x==========x]
+[2023-12-29 15:56:25,118: INFO: main: >>>>>> Stage Data Transformation started <<<<<<]
+[2023-12-29 15:56:25,118: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:56:25,118: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:56:25,118: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:56:25,118: INFO: common: created directory at: artifacts]
+[2023-12-29 15:56:25,118: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-29 15:56:29,907: INFO: data_transformation: Splited data into training and test sets]
+[2023-12-29 15:56:29,907: INFO: data_transformation: (223856, 18)]
+[2023-12-29 15:56:29,907: INFO: data_transformation: (95939, 18)]
+[2023-12-29 15:56:29,922: INFO: main: >>>>>> Stage Data Transformation completed <<<<<<
+
+x==========x]
+[2023-12-29 15:56:29,922: INFO: main: >>>>>> Stage Model Training started <<<<<<]
+[2023-12-29 15:56:29,938: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:56:29,938: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:56:29,938: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:56:29,938: INFO: common: created directory at: artifacts]
+[2023-12-29 15:56:29,938: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-29 15:57:29,474: INFO: main: >>>>>> Stage Model Training completed <<<<<<
+
+x==========x]
+[2023-12-29 15:57:29,474: INFO: main: >>>>>> Stage Model Evaluation started <<<<<<]
+[2023-12-29 15:57:29,490: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:57:29,490: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:57:29,490: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:57:29,490: INFO: common: created directory at: artifacts]
+[2023-12-29 15:57:29,490: ERROR: main: "'ConfigBox' object has no attribute 'elasticnet'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'elasticnet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main.py", line 53, in <module>
+    obj.main()
+  File "c:\users\sindhu madhicherla\onedrive\desktop\ml\projects\p5_mlflow_ec2_app_heartdisease\heart_disease_predictor\heart_disease_predictor\src\HeartDisease\pipeline\stage_05_model_evaluation.py", line 19, in main
+    raise e
+  File "c:\users\sindhu madhicherla\onedrive\desktop\ml\projects\p5_mlflow_ec2_app_heartdisease\heart_disease_predictor\heart_disease_predictor\src\HeartDisease\pipeline\stage_05_model_evaluation.py", line 14, in main
+    model_evaluation_config = config.get_model_evaluation_config()
+  File "c:\users\sindhu madhicherla\onedrive\desktop\ml\projects\p5_mlflow_ec2_app_heartdisease\heart_disease_predictor\heart_disease_predictor\src\HeartDisease\config\configuration.py", line 84, in get_model_evaluation_config
+    params = self.params.ElasticNet
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'elasticnet'"
+[2023-12-29 15:58:14,466: INFO: main: >>>>>> Stage Data Ingestion started <<<<<<]
+[2023-12-29 15:58:14,466: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:58:14,466: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:58:14,466: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:58:14,466: INFO: common: created directory at: artifacts]
+[2023-12-29 15:58:14,473: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-29 15:58:14,473: INFO: data_ingestion: File already exists of size: ~ 3217 KB]
+[2023-12-29 15:58:14,520: INFO: main: >>>>>> Stage Data Ingestion completed <<<<<<
+
+x==========x]
+[2023-12-29 15:58:14,520: INFO: main: >>>>>> Stage Data Validation started <<<<<<]
+[2023-12-29 15:58:14,520: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:58:14,535: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:58:14,535: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:58:14,535: INFO: common: created directory at: artifacts]
+[2023-12-29 15:58:14,535: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-29 15:58:14,897: INFO: main: >>>>>> Stage Data Validation completed <<<<<<
+
+x==========x]
+[2023-12-29 15:58:14,897: INFO: main: >>>>>> Stage Data Transformation started <<<<<<]
+[2023-12-29 15:58:14,897: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:58:14,897: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:58:14,903: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:58:14,903: INFO: common: created directory at: artifacts]
+[2023-12-29 15:58:14,903: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-29 15:58:19,804: INFO: data_transformation: Splited data into training and test sets]
+[2023-12-29 15:58:19,804: INFO: data_transformation: (223856, 18)]
+[2023-12-29 15:58:19,804: INFO: data_transformation: (95939, 18)]
+[2023-12-29 15:58:19,820: INFO: main: >>>>>> Stage Data Transformation completed <<<<<<
+
+x==========x]
+[2023-12-29 15:58:19,820: INFO: main: >>>>>> Stage Model Training started <<<<<<]
+[2023-12-29 15:58:19,820: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:58:19,820: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:58:19,820: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:58:19,820: INFO: common: created directory at: artifacts]
+[2023-12-29 15:58:19,820: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-29 15:58:43,631: INFO: main: >>>>>> Stage Model Training completed <<<<<<
+
+x==========x]
+[2023-12-29 15:58:43,631: INFO: main: >>>>>> Stage Model Evaluation started <<<<<<]
+[2023-12-29 15:58:43,631: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-29 15:58:43,646: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-29 15:58:43,646: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-29 15:58:43,646: INFO: common: created directory at: artifacts]
+[2023-12-29 15:58:43,646: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-12-29 15:58:45,789: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2023-12-29 15:58:55,726: INFO: main: >>>>>> Stage Model Evaluation completed <<<<<<
+
+x==========x]

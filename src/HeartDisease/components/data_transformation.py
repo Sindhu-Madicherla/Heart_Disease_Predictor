@@ -8,6 +8,7 @@ from pathlib import Path
 from HeartDisease.entity.config_entity import DataTransformationConfig
 from sklearn.model_selection import train_test_split
 from category_encoders import TargetEncoder
+import pickle
 
 
 class DataTransformation:
@@ -28,6 +29,11 @@ class DataTransformation:
         encoder = TargetEncoder()
         train[catcols] = encoder.fit_transform(train[catcols], train['HeartDisease'])
         test[catcols] = encoder.transform(test[catcols])
+        
+        # Saving the encoder for use during prediction
+        filehandler = open(os.path.join(self.config.root_dir, self.config.encoder_name),"wb")
+        pickle.dump(encoder,filehandler)
+        filehandler.close()
         
         # Uploading csvs 
         train.to_csv(os.path.join(self.config.root_dir, "train.csv"),index = False)

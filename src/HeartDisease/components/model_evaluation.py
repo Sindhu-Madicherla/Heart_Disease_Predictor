@@ -79,20 +79,11 @@ class ModelEvaluation:
             for X, y in dataloader:
                 pred = model(X)
                 test_loss += loss_fn(pred, y.reshape(-1,1)).item()
-                correct += (pred.argmax(1) == y).type(torch.float).sum().item()
+                correct += ((pred>0.5).float() == y).type(torch.float).sum().item()
 
         test_loss /= num_batches
         correct /= size
         print(f"Test Error: \n Accuracy: {(100*correct):>0.1f}%, Avg loss: {test_loss:>8f} \n")
         return 100*correct, test_loss
-
-    def predict(row, model):
-        # convert row to data
-        row = Tensor([row])
-        # make prediction
-        yhat = model(row)
-        # retrieve numpy array
-        yhat = yhat.detach().numpy()
-        return yhat
 
     

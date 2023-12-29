@@ -14,6 +14,7 @@ from torchvision import datasets, transforms
 import torchvision.models as models
 from torch import Tensor
 from transformers import AdamW
+import pickle
 
 class ModelTrainer:
     def __init__(self, config: ModelTrainerConfig):
@@ -22,24 +23,16 @@ class ModelTrainer:
     
     def prepare_data(self):
         train_data = pd.read_csv(self.config.train_data_path)
-        test_data = pd.read_csv(self.config.test_data_path)
 
 
         X_train = train_data.drop([self.config.target_column], axis=1)
-        X_test = test_data.drop([self.config.target_column], axis=1)
         y_train = train_data[[self.config.target_column]]
-        y_test = test_data[[self.config.target_column]]
         
         train_target = torch.tensor(y_train.values.astype(np.float32))
         train = torch.tensor(X_train.values.astype(np.float32)) 
         dataset_train = data_utils.TensorDataset(train, train_target)
-
-        test_target = torch.tensor(y_test.values.astype(np.float32))
-        test = torch.tensor(X_test.values.astype(np.float32)) 
-        dataset_test = data_utils.TensorDataset(test, test_target)
         
         train_dataloader = DataLoader(dataset_train, batch_size=64, shuffle=True)
-        test_dataloader = DataLoader(dataset_test, batch_size=64, shuffle=True)
         
         return train_dataloader
     

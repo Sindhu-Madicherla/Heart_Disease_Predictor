@@ -20,6 +20,7 @@ class DataValidationConfig:
 class DataTransformationConfig:
     root_dir: Path
     data_path: Path
+    encoder_name: str
     
 @dataclass(frozen=True)
 class ModelTrainerConfig:
